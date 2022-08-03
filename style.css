@@ -1,0 +1,103 @@
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    color: goldenrod;
+    height: 5px;
+    background-color: goldenrod;
+}
+
+body {
+    background-color: #016f32;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#player-el {
+    color: goldenrod;
+    display: inline;
+    margin-bottom: 10px;
+}
+#balance {
+    display: inline;
+    color: goldenrod;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    
+}
+
+#dealer {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+#name {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#playerline {
+    color: white;
+}
+
+#message-el {
+    font-style: italic;
+    margin-bottom: 100px;
+}
+#dmessage-el {
+    font-style: italic;
+    margin-top: 10px;
+}
+#dsum-el{
+    margin-bottom: 0px;
+}
+
+#bet {
+    color: black;
+    font-weight: bolder;
+}
+
+button {
+    background-color: goldenrod;
+    margin-left: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #016f32;
+    border: none;
+    margin-bottom: 20px;
+}
+#newcard {
+    width: 100px;
+}
+#stay{
+    width: 100px;
+}
+#rupee{
+    display: inline;
+    color: goldenrod;
+}
+#parent{
+    display: flex;
+    justify-content: space-around;
+}
+#pay {
+    display: inline;
+}
+#winning {
+    display: inline;
+}

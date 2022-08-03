@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="broke">Blackjack</h1><pre><p id="player-el">Rumeel: </p><p id="rupee">₹</p><p id="balance"></p></pre>
+    <button id="startgame" onclick="startGame()">START GAME</button>
+    <button id="replay" onclick="replay()">REPLAY</button> <hr>
+    <div id="parent">
+        <div id="child1">
+            <u><p id="dealer">Dealer</p></u>
+            <p id="dcards-el">Cards: </p>
+            <p id="dsum-el">Sum: </p> <br>
+            <p id="dmessage-el">Lets get started!</p>
+        </div>
+        <div id="child2">
+            <U id="playerline"><p id="name">Player</p></U>
+            <p id="cards-el">Cards: </p>
+            <p id="sum-el">Sum: </p>
+            <p id="message-el">I hope you know the rules?</p><p id="bet">Current Bet: ₹2000</p>
+            <button id="stay" onclick="stay()">STAY</button>
+            <button id="newcard" onclick="newCard()">HIT</button>
+
+        </div>
+    </div>
+    <h1 id="pay">Payout: </h1><h1 id="winning"></h1>
+    <script src="app.js"></script>
+</body>
+</html>
