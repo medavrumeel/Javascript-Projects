@@ -41,12 +41,14 @@ p {
     color: black;
     font-weight: bolder;
 }
+
 #name {
     margin-bottom: 0px;
     margin-top: 10px;
     font-size: 50px;
     font-weight: bolder;
 }
+
 #playerline {
     color: white;
 }
@@ -55,10 +57,12 @@ p {
     font-style: italic;
     margin-bottom: 100px;
 }
+
 #dmessage-el {
     font-style: italic;
     margin-top: 10px;
 }
+
 #dsum-el{
     margin-bottom: 0px;
 }
@@ -87,17 +91,21 @@ button {
 #stay{
     width: 100px;
 }
+
 #rupee{
     display: inline;
     color: goldenrod;
 }
+
 #parent{
     display: flex;
     justify-content: space-around;
 }
+
 #pay {
     display: inline;
 }
+
 #winning {
     display: inline;
 }
